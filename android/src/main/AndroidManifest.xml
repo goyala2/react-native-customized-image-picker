@@ -4,11 +4,13 @@
     <application>
 
         <activity android:name="cn.finalteam.rxgalleryfinal.ui.activity.MediaActivity"
+                  android:configChanges="keyboard|keyboardHidden|orientation|screenSize"
                   android:exported="true"
                   android:theme="@style/Theme_Light.Default"/>
 
         <activity
                 android:name="com.yalantis.ucrop.UCropActivity"
+                android:configChanges="keyboard|keyboardHidden|orientation|screenSize"
                 android:theme="@style/Theme_Light.Default"/>
     </application>
 
